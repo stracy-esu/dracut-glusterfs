@@ -18,7 +18,7 @@ dracut --add-modules "glusterfs" /boot/initramfs-<kernel version>.img
 ````
 
 ## Some Background
-In many Linux distributions now make /bin, /sbin, /lib, and /lib64 symlinks to
+Many Linux distributions now make /bin, /sbin, /lib, and /lib64 symlinks to
 their /usr equivalents.  This requires mounting /usr before switch_root is run
 by the initramfs init script.  Originally following guidance from
 [Missouri University Science & Technology Pegasus IV Cluster Notes][mst], I
